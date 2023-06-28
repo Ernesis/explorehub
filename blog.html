@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exlorehub</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">EXPLOREHUB</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a><i class="fa fa-home fa-fw"></i>Home</li>
+            <li><a href="#"></a><i class="fa fa-map-marker fa-fw"></i>Tours</li>
+            <li><a href="#"></a><i class="fa fa-globe fa-fw"></i>Explore</li>
+            <li><a href="#"></a><i class="fa fa-user fa-fw"></i>About</li>
+            <li class="ctn"><a href="#"></a><i class="fa fa-phone fa-fw"></i>Contact</li>
+        </ul>
+        <img src="images/bars.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Best Home Settings</h2>
+            <div class="line"></div>
+            <h1>AWESOME DESIGNS</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- ** Events ** -->
+    <section class="events">
+        <div class="title">
+            <h1>PERFECT SETTING</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/room 1 (20).jpg" alt="Campbell Touchset Design">
+                <h4>Campbell Touchset</h4>
+                <p>A classic design-seting from Campbell Touchset which has always been the hint of every desired bedroom design. The nice shot demonstrated how good this multi-home company designers can go.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/room 1 (7).jpg" alt="Pouchmark Setting">
+                <h4>Pouchmark Setting</h4>
+                <p>This design has made a hit-talk since its shot few years ago, and the company's ID has been at every region with decorative designs. This made way for creative awards last year.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-contents">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Seeing what other world's bedroom setting looks like is quite fascinating and makes one move further to create a more wonderful home setting with epic decorations.</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>We will take a wide tour across the globe to explore decorative and glowing bedroom settings and designs in the 7 continents. Hope it will be fun!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img (4).jpg" alt="">
+                    <img src="images/img (3).jpg" alt="">
+                    <img src="images/img (2).jpg" alt="">
+                    <img src="images/img (1).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p><i class="fa fa-map-marker fa-fw"></i> 111 Uwanse Street, Calabar, Nigeria | <i class="fa fa-phone fa-fw"></i>+234-816-948-6462 | <i class="fa fa-envelope-open fa-fw"></i> ernesisera@yahoo.com</p>
+        <p>Copyright © 2022 Ernesis Corporation. All rights reserved.</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=> {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+   
+</body>
+</html>
